@@ -1,0 +1,9 @@
+<div class="yo-dialog yo-dialog-dialog1">
+    <div class="bd">
+        <p>不带title的dialog</p>
+    </div>
+    <footer class="ft">
+        <button class="yo-btn yo-btn-dialog yo-btn-l">取消</button>
+        <button class="yo-btn yo-btn-dialog yo-btn-l">确定</button>
+    </footer>
+</div>

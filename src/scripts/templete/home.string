@@ -1,0 +1,69 @@
+<div class="m-home">
+	<header class="home-hd">
+		<ul class="hot-ul">
+			<li>
+				<i class="icon yo-ico">&#xe745;</i>
+			</li>
+			<li>
+				<div class="home-tab">
+					<span class="active" action-type="tab.hot">热点</span>
+					<span  action-type="tab.hot">关注</span>
+				<div>
+			</li>
+			<li>
+				<i class="icon yo-ico">&#xe684;</i>
+			</li>
+		</ul>
+	</header>
+	<div class="swiper-container" id="hot-container">
+		<div class="swiper-wrapper">
+		        <div class="swiper-slide"> 
+		         <section class="home-main">
+					<nav>
+						<ul class="home-menu">
+							<li class="active" action-type="switch.home">足球现场</li>
+							<li  action-type="switch.home">足球生活</li>
+							<li  action-type="switch.home">足球美女</li>
+						</ul>
+					</nav>
+					<div class="home-slide" spa-widget='scroll'>
+						<div class="swiper-container" id="home-container">
+						  <div class="swiper-wrapper">
+						    <div class="swiper-slide slide">
+									<div class="home-tab1" id="liveScroll">
+										<div id="home-tab1data">
+											<div class="headdown">
+					                            <img src="/football-app/image/arrow.png"/>
+					                            <span>下拉刷新...</span>
+					                        </div>
+											<ul ms-repeat-value="livelist">
+												<li>
+													<img ms-src="value[0].img">
+													<span ms-text="value[0].title"></span>
+												</li>
+												<li></li>
+												<li ms-class-hide="!value[1]">
+													<img ms-src="value[1].img">
+													<span ms-text="value[1].title"></span>
+												</li>
+											</ul>
+											<div class="footup">
+					                            <img src="/football-app/image/arrow.png"/>
+					                            <span>上拉加载更多...</span>
+					                        </div>
+										</div>
+									</div>
+						    </div>
+						    <div class="swiper-slide slide">slider2</div>
+						    <div class="swiper-slide slide">slider3</div>
+						  </div>
+						</div>
+					</div>
+				</section>
+		        </div>      
+		       <div class="swiper-slide">
+		         关注。。。。。
+		       </div> 
+		</div>
+	</div>
+</div>
