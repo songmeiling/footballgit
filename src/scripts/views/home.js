@@ -55,15 +55,15 @@ SPA.defineView('home', {
       fnUtil.pullToRefresh({
         objScroll: liveScroll,
         ptrHeight: 35,
-        loaderImg: '/football-app/image/ajax-loader.gif',
-        arrowImg: '/football-app/image/arrow.png',
+        loaderImg: '/footballgit/image/ajax-loader.gif',
+        arrowImg: '/footballgit/image/arrow.png',
         head: $('.headdown img'),
         foot: $('.footup img'),
         view: self
       });
         //请求数据
        $.ajax({
-        url:"/football-app/mock/livelist.json",
+        url:"/footballgit/mock/livelist.json",
         data:{},
         dataType:"json",
         success:function(res){

@@ -33,8 +33,8 @@ var _fnUtil = {
     var that = this;
     var myScroll = opt.objScroll || {};
     var ptrHeight = opt.ptrHeight || 35;
-    var loaderImg = opt.loaderImg || '/football-app/image/ajax-loader.gif';
-    var arrowImg = opt.arrowImg || '/football-app/image/arrow.png';
+    var loaderImg = opt.loaderImg || '/footballgit/image/ajax-loader.gif';
+    var arrowImg = opt.arrowImg || '/footballgit/image/arrow.png';
     var head = opt.head || $('.head img');
     var foot = opt.foot || $('.foot img');
     var view = opt.view || {};
@@ -66,7 +66,7 @@ var _fnUtil = {
 
         //ajax上拉刷新数据
         $.ajax({
-          url: '/football-app/mock/refresh-livelist.json',
+          url: '/footballgit/mock/refresh-livelist.json',
           success: function(res) {
             if (res.ret) {
               view.vm.livelist = that.dataFormat(res.data);
@@ -95,7 +95,7 @@ var _fnUtil = {
 
         var self = this;
         $.ajax({
-          url: '/football-app/mock/more-livelist.json',
+          url: '/footballgit/mock/more-livelist.json',
           success: function(res) {
             if (res.ret) {
               view.vm.plainLivelist.pushArray(res.data);

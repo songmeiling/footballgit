@@ -10,5 +10,5 @@ require('./views/guild');
 
 //配置默认视图
 SPA.config({
-	indexView:'guild'
+	indexView:'index'
 });

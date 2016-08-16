@@ -1,16 +1,16 @@
  <div class="swiper-container" id="swiper-container">
     <div class="swiper-wrapper">
         <div class="swiper-slide"> 
-          <img src="/football-app/image/slide1.png">
+          <img src="/footballgit/image/slide1.png">
         </div>      
        <div class="swiper-slide">
-         <img src="/football-app/image/slide2.png">
+         <img src="/footballgit/image/slide2.png">
        </div> 
        <div class="swiper-slide"> 
-         <img src="/football-app/image/slide3.png">
+         <img src="/footballgit/image/slide3.png">
        </div>
        <div class="swiper-slide"> 
-         <img src="/football-app/image/slide4.png">
+         <img src="/footballgit/image/slide4.png">
          <p action-type="goto.index" class="goto"></p>
        </div>
    </div>

@@ -4,16 +4,16 @@
   "errcode": 0,
   "errmsg": "",
   "data": [{
-    "img": "/football-app/image/img1.jpg",
+    "img": "/footballgit/image/img1.jpg",
     "title": "more-小丸子"
   }, {
-    "img": "/football-app/image/img2.jpg",
+    "img": "/footballgit/image/img2.jpg",
     "title": "more-火帽子"
   }, {
-    "img": "/football-app/image/img3.jpg",
+    "img": "/footballgit/image/img3.jpg",
     "title": "more-跳跳娃"
   }, {
-    "img": "/football-app/image/img4.jpg",
+    "img": "/footballgit/image/img4.jpg",
     "title": "more-红袋鼠"
   }]
 }
